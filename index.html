@@ -8,13 +8,14 @@
     <title>Web-static-challenge #1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="wickedcss.min.css">
 </head>
 <body>
 
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">FackShop</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,24 +28,15 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Catégorie</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Panier</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
-                </li>
+
             </ul>
             <form class="d-flex">
                 <input class="form-control me-sm-2" type="text" placeholder="Search">
@@ -57,26 +49,76 @@
 <section class="py-5">
     <div class="container px-4 px-lg-5 my-5">
         <div class="row gx-4 gx-lg-5 align-items-center">
-            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." /></div>
-            <div class="col-md-6">
+            <div class="col-md-6 slideUp"><img class="card-img-top mb-5 mb-md-0" src="https://images.unsplash.com/photo-1640130960412-af425bde2be3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="..." /></div>
+            <div class="col-md-6 card leftbox">
                 <div class="small mb-1">TYU: POI-789</div>
-                <h1 class="display-5 fw-bolder">Shop fack item</h1>
+                <h1 class="display-5 fw-bolder floater">Shop fack item</h1>
                 <div class="fs-5 mb-5">
                     <span class="text-decoration-line-through">$45.00</span>
                     <span>$40.00</span>
                 </div>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
+                <p class="lead ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?</p>
                 <div class="d-flex">
 
                     <button class="btn btn-outline-dark flex-shrink-0" type="button">
                         <i class="bi-cart-fill me-1"></i>
-                        Add to cart
+                        Ajouter au panier
                     </button>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+<!--test-->
+<div class="container px-4 px-lg-5">
+    <!-- Heading Row-->
+    <div class="row gx-4 gx-lg-5 align-items-center my-5">
+        <div class="col-lg-7 slideRight"><img class="img-fluid rounded mb-4 mb-lg-0" src="https://images.unsplash.com/photo-1578133559556-9e83af5fc5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="..." /></div>
+        <div class="col-lg-5">
+            <h1 class="font-weight-light floater">Les chiens, c'est bien</h1>
+            <p>Ar komprenet c'hello komprenet amañ da rofe traoù da ober evel Stad d'un evel c'hello abenn Stad pe distrujañ embannet.</p>
+            <a class="btn btn-primary" href="#!">Voir la boutique</a>
+        </div>
+    </div>
+    <!-- Call to Action-->
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <div class="card-body"><p class="text-white m-0">On ne vend pas des chiens mais des vêtements pour chiens !</p></div>
+    </div>
+    <!-- Content Row-->
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-5 fadeIn">
+            <div class="card h-100 rightbotcard">
+                <div class="card-body">
+                    <h2 class="card-title">Card One</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5 fadeIn">
+            <div class="card h-100 centerbotcard">
+                <div class="card-body">
+                    <h2 class="card-title">Card Two</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-5 fadeIn">
+            <div class="card h-100 leftbotcard"  >
+                <div class="card-body">
+                    <h2 class="card-title">Card Three</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                </div>
+                <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+
 
 <!-- Footer-->
 <footer class="py-5 bg-dark">

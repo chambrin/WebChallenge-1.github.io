@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
 
 
+body {
+  font-family: 'Pushster', cursive !important;
+}
 $color-1: #fec5bb;
 $color-2: #fcd5ce;
 $color-3: #fae1dd;
@@ -13,4 +17,37 @@ $color-10: #fec89a;
 
 h1, h2, h3, h4, h5 {
   color: $color-4;
+}
+
+.leftbox {
+  padding: 15px;
+}
+
+.leftbotcard {
+  background-image: url(https://images.unsplash.com/photo-1583511666445-775f1f2116f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80) !important;
+  background-position: 25% 75%;
+  background-size: cover;
+
+}
+.card-title {
+  color: #1a1e21;
+
+}
+.card-text {
+  color: black;
+  padding: 2px;
+
+  font-size: 20px;
+}
+
+.centerbotcard {
+  background-image: url("https://images.unsplash.com/photo-1583511655802-41f2ccc2cc8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80") !important;
+  background-position: 25% 75%;
+  background-size: cover;
+}
+
+.rightbotcard {
+  background-image: url("https://images.unsplash.com/photo-1598628461950-268968751a2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80") !important;
+  background-position: 25% 75%;
+  background-size: cover;
 }
